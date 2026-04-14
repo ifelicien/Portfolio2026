@@ -67,7 +67,7 @@ function populateSectionText() {
     }
 
     if (educationText) {
-        educationText.textContent = 'I studied Computer Science and have completed coursework in web development, design systems, and full stack engineering. I am always learning and improving my skills.';
+        educationText.textContent = 'I am a graduate of Texas Southern University, where I earned my Bachelor of Science in Computer Science with a 3.6/4.0 DGPA. During my time there, I was honored to be placed on the President’s List, Dean’s List, and Honor Roll, and I was actively involved in the National Society of Black Engineers (NSBE) and Brilliant Black Minds. Prior to my Bachelor\'s, I completed an Associate of Science in Computer Science at Houston Community College. To keep my technical skills sharp, I’ve also earned 11 professional certifications covering essential topics like JavaScript, Linux, and Cloud Computing.';
     }
 
     if (educationLogo1Img) {
