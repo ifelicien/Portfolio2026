@@ -62,8 +62,8 @@ function populateSectionText() {
     }
 
     if (aboutImage) {
-        aboutImage.src = 'https://placehold.co/400x400?text=Your+Photo';
-        aboutImage.alt = 'About me placeholder';
+        aboutImage.src = 'assets/headshot.jpeg';
+        aboutImage.alt = 'Headshot of Irwin Felicien';
     }
 
     if (educationText) {
