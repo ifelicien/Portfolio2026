@@ -274,6 +274,7 @@ section h1 {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     padding: 14px;
     background: #f3f4f6;
@@ -286,8 +287,11 @@ section h1 {
 .education-logo img {
     width: 140px;
     height: 140px;
-    object-fit: cover;
+    object-fit: contain;
+    background: #fff;
     border-radius: 18px;
+    display: block;
+    margin: 0 auto;
 }
 
 .education-logo span {
