@@ -58,7 +58,7 @@ function populateSectionText() {
     }
 
     if (aboutText) {
-        aboutText.textContent = 'I am a passionate web developer who loves crafting modern, user-friendly experiences. I enjoy bringing ideas to life with clean design and responsive layouts.';
+        aboutText.textContent = 'I am a software developer with experience in SQL querying and PowerShell scripting. I also work on web development and PC building, and I enjoy creating modern user experiences while optimizing hardware setups.';
     }
 
     if (aboutImage) {
