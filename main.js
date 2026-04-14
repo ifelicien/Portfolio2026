@@ -71,7 +71,7 @@ function populateSectionText() {
     }
 
     if (educationLogo1Img) {
-        educationLogo1Img.src = 'https://placehold.co/200x200?text=HCC';
+        educationLogo1Img.src = 'assets/HCCS.png';
         educationLogo1Img.alt = 'Houston Community College Logo';
     }
 
