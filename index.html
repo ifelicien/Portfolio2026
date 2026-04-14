@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="top-nav">
+        <div class="logo">Irwin Felicien</div>
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="#landing">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="landing" class="hero-section">
+            <div class="hero-inner">
+                <div class="hero-photo">
+                    <img id="hero-image" src="" alt="Hero photo placeholder">
+                </div>
+                <div class="hero-copy">
+                    <h1 id="hero-title"></h1>
+                    <h2 id="hero-subtitle"></h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h1>About Me</h1>
+            <div class="about-content">
+                <div class="about-image">
+                    <img id="about-image" src="" alt="About me placeholder">
+                </div>
+                <div class="about-copy">
+                    <p id="about-text"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h1>Education</h1>
+            <div class="education-copy">
+                <p id="education-text"></p>
+            </div>
+            <div class="education-logos">
+                <div class="education-logo">
+                    <img id="education-logo-1-img" src="" alt="">
+                    <span id="education-logo-1-label"></span>
+                </div>
+                <div class="education-logo">
+                    <img id="education-logo-2-img" src="" alt="">
+                    <span id="education-logo-2-label"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+            <p id="projects-text"></p>
+            <div class="video-links">
+                <h2>Video Links</h2>
+                <div class="video-cards">
+                    <a class="video-card" id="video-card-1" href="#" target="_blank" rel="noopener noreferrer" title="Link to video 1">
+                        <img id="video-1-img" src="" alt="Video 1 thumbnail">
+                        <span id="video-1-title"></span>
+                        <p id="video-1-description"></p>
+                    </a>
+                    <a class="video-card" id="video-card-2" href="#" target="_blank" rel="noopener noreferrer" title="Link to video 2">
+                        <img id="video-2-img" src="" alt="Video 2 thumbnail">
+                        <span id="video-2-title"></span>
+                        <p id="video-2-description"></p>
+                    </a>
+                    <a class="video-card" id="video-card-3" href="#" target="_blank" rel="noopener noreferrer" title="Link to video 3">
+                        <img id="video-3-img" src="" alt="Video 3 thumbnail">
+                        <span id="video-3-title"></span>
+                        <p id="video-3-description"></p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1>Contact</h1>
+            <div id="contact-emailer" class="contact-emailer"></div>
+            <p id="contact-text"></p>
+            <div class="contact-links">
+                <a id="linkedin-link" href="#" target="_blank" rel="noopener noreferrer" title="Add your LinkedIn URL">
+                    <img id="linkedin-image" src="" alt="LinkedIn Logo">
+                    <span id="linkedin-label">LinkedIn</span>
+                </a>
+                <a id="indeed-link" href="#" target="_blank" rel="noopener noreferrer" title="Add your Indeed URL">
+                    <img id="indeed-image" src="" alt="Indeed Logo">
+                    <span id="indeed-label">Indeed</span>
+                </a>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="main.js"></script>
+</body>
+</html>

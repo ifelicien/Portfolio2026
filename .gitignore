@@ -1,0 +1,10 @@
+# Ignore local environment configuration files
+env/config.js
+env/*.local.js
+!.gitkeep
+!env/config.example.js
+.env
+.env.local
+.env.*.local
+
+# Add other local developer files below
