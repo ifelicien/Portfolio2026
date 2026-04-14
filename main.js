@@ -80,7 +80,7 @@ function populateSectionText() {
     }
 
     if (educationLogo2Img) {
-        educationLogo2Img.src = 'https://placehold.co/200x200?text=TSU';
+        educationLogo2Img.src = 'assets/TXSU.png';
         educationLogo2Img.alt = 'Texas Southern University Logo';
     }
 
